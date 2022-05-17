@@ -16,10 +16,10 @@ class CustomTabbarController: UITabBarController {
         self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
    
-//    override func viewWillDisappear(_ animated: Bool) {
-//        super.viewWillDisappear(animated)
-//        self.navigationController?.setNavigationBarHidden(true, animated: true)
-//    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+    }
 
     func setTabbarItem() {
         let exploreVC = ExploreViewController()

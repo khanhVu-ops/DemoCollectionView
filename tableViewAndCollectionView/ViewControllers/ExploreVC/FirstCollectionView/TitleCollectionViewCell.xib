@@ -11,20 +11,24 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TitleCollectionViewCell" customModule="tableViewAndCollectionView" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="176" height="82"/>
+            <rect key="frame" x="0.0" y="0.0" width="81" height="40"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="176" height="82"/>
+                <rect key="frame" x="0.0" y="0.0" width="81" height="40"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JPw-kt-gF8">
-                        <rect key="frame" x="16" y="10" width="88" height="62"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sport" translatesAutoresizingMaskIntoConstraints="NO" id="JPw-kt-gF8">
+                        <rect key="frame" x="10" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="JPw-kt-gF8" secondAttribute="height" multiplier="1:1" id="BLF-u5-ftD"/>
+                        </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNh-Ez-7WG">
-                        <rect key="frame" x="124" y="15" width="42" height="57"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="TitleCollectionViewCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="SNh-Ez-7WG">
+                        <rect key="frame" x="35" y="15" width="36" height="15"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
                     </label>
                 </subviews>
             </view>
@@ -32,14 +36,21 @@
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="JPw-kt-gF8" secondAttribute="bottom" constant="10" id="BGR-Dn-8Fg"/>
                 <constraint firstAttribute="bottom" secondItem="SNh-Ez-7WG" secondAttribute="bottom" constant="10" id="EEw-tk-4DS"/>
-                <constraint firstItem="SNh-Ez-7WG" firstAttribute="leading" secondItem="JPw-kt-gF8" secondAttribute="trailing" constant="20" id="L3Q-hi-WBF"/>
+                <constraint firstItem="SNh-Ez-7WG" firstAttribute="leading" secondItem="JPw-kt-gF8" secondAttribute="trailing" constant="5" id="L3Q-hi-WBF"/>
                 <constraint firstItem="SNh-Ez-7WG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="a0l-rx-j0o"/>
                 <constraint firstAttribute="trailing" secondItem="SNh-Ez-7WG" secondAttribute="trailing" constant="10" id="hbO-s6-Uo7"/>
-                <constraint firstItem="JPw-kt-gF8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="nUr-U0-M3S"/>
+                <constraint firstItem="JPw-kt-gF8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="nUr-U0-M3S"/>
                 <constraint firstItem="JPw-kt-gF8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="ogM-Zj-i68"/>
             </constraints>
-            <size key="customSize" width="176" height="82"/>
-            <point key="canvasLocation" x="133.33333333333334" y="101.11607142857143"/>
+            <size key="customSize" width="81" height="40"/>
+            <connections>
+                <outlet property="imgAvata" destination="JPw-kt-gF8" id="z0C-oA-d1i"/>
+                <outlet property="lbName" destination="SNh-Ez-7WG" id="klF-uC-6Rh"/>
+            </connections>
+            <point key="canvasLocation" x="64.492753623188406" y="87.053571428571431"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="sport" width="19" height="19"/>
+    </resources>
 </document>

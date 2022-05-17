@@ -29,11 +29,22 @@ class NotificationViewController: UIViewController {
         
         myTableView.delegate = self
         myTableView.dataSource = self
+        
+        self.title = "Notification"
+    
+        let rightBtn = UIBarButtonItem(image: UIImage(named: "btnDetail"), style: .done, target: self, action: #selector(didTapBtnDetail))
+        let leftBtn = UIBarButtonItem(image: UIImage(named: "btnBack"), style: .done, target: self, action: #selector(didTapBtnDetail))
+        self.navigationItem.rightBarButtonItem = rightBtn
+        self.navigationItem.leftBarButtonItem = leftBtn
     }
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    
+    @objc func didTapBtnDetail() {
+        print("Tap Detail")
     }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        self.navigationController?.setNavigationBarHidden(true, animated: true)
+//    }
 
 }
 
@@ -64,6 +75,7 @@ extension NotificationViewController: UITableViewDataSource {
 extension NotificationViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        tableView.allowsSelection = false
     }
     
 }
