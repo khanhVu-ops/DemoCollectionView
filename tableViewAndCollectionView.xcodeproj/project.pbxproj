@@ -25,7 +25,6 @@
 		33870FB3282EB7BD00186C13 /* TitleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33870FB2282EB7BD00186C13 /* TitleData.swift */; };
 		33870FB8282ECD8D00186C13 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33870FB6282ECD8D00186C13 /* SecondCollectionViewCell.swift */; };
 		33870FB9282ECD8D00186C13 /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33870FB7282ECD8D00186C13 /* SecondCollectionViewCell.xib */; };
-		33870FBD282ED88600186C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33870FBC282ED88600186C13 /* Assets.xcassets */; };
 		33870FC1282EDCB500186C13 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33870FC0282EDCB500186C13 /* EventData.swift */; };
 		33B09AC8282979BE00138495 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B09AC6282979BE00138495 /* ExploreViewController.swift */; };
 		33B09AC9282979BE00138495 /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B09AC7282979BE00138495 /* ExploreViewController.xib */; };
@@ -37,6 +36,7 @@
 		33DA773E282D7413009B0C10 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA773D282D7413009B0C10 /* CustomTabbarController.swift */; };
 		33DA7744282D7BEA009B0C10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA7742282D7BEA009B0C10 /* MapViewController.swift */; };
 		33DA7745282D7BEA009B0C10 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DA7743282D7BEA009B0C10 /* MapViewController.xib */; };
+		33DFC5B42833B92C003CAA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DFC5B32833B92C003CAA96 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +60,6 @@
 		33870FB2282EB7BD00186C13 /* TitleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleData.swift; sourceTree = "<group>"; };
 		33870FB6282ECD8D00186C13 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
 		33870FB7282ECD8D00186C13 /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
-		33870FBC282ED88600186C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		33870FC0282EDCB500186C13 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		33B09AC6282979BE00138495 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		33B09AC7282979BE00138495 /* ExploreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExploreViewController.xib; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		33DA773D282D7413009B0C10 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
 		33DA7742282D7BEA009B0C10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		33DA7743282D7BEA009B0C10 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		33DFC5B32833B92C003CAA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +177,7 @@
 				331E29422827B93C0079ACE1 /* Models */,
 				331E29442827B9470079ACE1 /* Helpers */,
 				336BE9B12822869F009B3201 /* Main.storyboard */,
-				33870FBC282ED88600186C13 /* Assets.xcassets */,
+				33DFC5B32833B92C003CAA96 /* Assets.xcassets */,
 				336BE9B6282286A0009B3201 /* LaunchScreen.storyboard */,
 				336BE9B9282286A0009B3201 /* Info.plist */,
 			);
@@ -310,10 +310,10 @@
 			files = (
 				33B09AD128297A0D00138495 /* ProfileViewController.xib in Resources */,
 				33B09AD628297A2C00138495 /* EventViewController.xib in Resources */,
-				33870FBD282ED88600186C13 /* Assets.xcassets in Resources */,
 				33B09AC9282979BE00138495 /* ExploreViewController.xib in Resources */,
 				331E29392827B83E0079ACE1 /* TypeNoButtonTableViewCell.xib in Resources */,
 				33DA7745282D7BEA009B0C10 /* MapViewController.xib in Resources */,
+				33DFC5B42833B92C003CAA96 /* Assets.xcassets in Resources */,
 				333896BB282F700A00CBB196 /* ThirdCollectionViewCell.xib in Resources */,
 				33870FAE282EA53100186C13 /* TitleCollectionViewCell.xib in Resources */,
 				331E29352827B77C0079ACE1 /* TypeButtonTableViewCell.xib in Resources */,
