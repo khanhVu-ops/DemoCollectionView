@@ -110,7 +110,7 @@
 				33B09ACD282979DE00138495 /* ProfileVC */,
 				33B09ACC282979D600138495 /* EventVC */,
 				33B09AC5282979A600138495 /* ExploreVC */,
-				33B09AC42829797100138495 /* Notification */,
+				33B09AC42829797100138495 /* NotificationController */,
 				33DA773D282D7413009B0C10 /* CustomTabbarController.swift */,
 			);
 			path = ViewControllers;
@@ -202,14 +202,14 @@
 			path = SecondCollectionView;
 			sourceTree = "<group>";
 		};
-		33B09AC42829797100138495 /* Notification */ = {
+		33B09AC42829797100138495 /* NotificationController */ = {
 			isa = PBXGroup;
 			children = (
 				331E293C2827B8890079ACE1 /* TypeNoButtonTableViewCell */,
 				331E293B2827B87E0079ACE1 /* TypeButtonTableViewCell */,
 				336BE9C128228998009B3201 /* NotificationViewController.swift */,
 			);
-			path = Notification;
+			path = NotificationController;
 			sourceTree = "<group>";
 		};
 		33B09AC5282979A600138495 /* ExploreVC */ = {
